@@ -27,7 +27,6 @@ public class RunTestcasesDemo {
 	public void TC_01_DemoRunOnJenkins() {
 		String loginTitle = driver.getTitle();
 		Assert.assertEquals("Guru99 Bank Home Page", loginTitle);
-		//
 		WebElement userTxt = driver.findElement(By.xpath("//input[@name='uid']"));
 		Assert.assertTrue(userTxt.isDisplayed());
 	}
