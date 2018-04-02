@@ -34,7 +34,6 @@ public class RunTestcasesDemo {
 
 	@AfterClass
 	public void afterClass() {
-		// Update code for run CI Jenkin
 		driver.quit();
 	}
 
