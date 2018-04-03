@@ -15,6 +15,7 @@ import junit.framework.Assert;
 public class RunTestcasesDemo {
 	WebDriver driver;
 
+	//
 	@BeforeClass
 	public void beforeClass() {
 		driver = new FirefoxDriver();
